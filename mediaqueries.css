@@ -1,0 +1,280 @@
+
+body {
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 768px) {
+    .logo{
+        padding-right: 60px;
+        padding-bottom: 10px;
+    }
+    .navbar {
+        text-align: center;
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+    .h{
+        padding-right: 20px;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-button {
+    margin-top: 20px;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column-reverse;
+    
+        padding: 10px;
+       
+    }
+
+    .hero-content {
+        text-align: center;
+       
+        padding: 20px 20px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 200px;
+    }
+    .donate-button{
+        text-align: center;
+        
+        
+    }
+    .e{
+        padding-right: 10px;
+    }
+    .p{
+        text-align: center;
+    }
+    .hero-image{
+        padding-right: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .vision-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vision-card {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 768px) {
+   
+    .mission-container {
+        flex-direction: column;
+        align-items: center;
+        position: relative; 
+    }
+    .san{
+        width: 150px;
+        padding-top: 30px;
+    }
+
+    .mission-image img {
+        position: relative;
+        width: 100%;
+    }
+
+    .mission-text {
+        text-align: center;
+    }
+    .iconn{
+        align-items: center;
+       
+    }
+    .navigation{
+        display: none;
+    }
+    .rib{
+        margin-left: 50px;
+        gap: 10px;
+}
+}
+
+@media (max-width: 768px) {
+    .health-support {
+        padding: 10px;
+    }
+
+    .cards-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .steps-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vector img {
+        display: none; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer div {
+        margin: 10px 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 24px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .donate-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .vision-cards {
+        gap: 10px;
+    }
+
+    .mission-text h2 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1000px) {
+    .headd {
+        flex-direction: column;
+        position: absolute;
+        padding-bottom: 100px;
+        
+    }
+    .nav-links1  {
+        flex-direction: column;
+        font-size: 14px;
+        align-items: center;
+        position: relative;
+        
+    }
+    
+    .container1 {
+        flex-direction: column;
+        position: relative;
+        top: 130px;
+        padding-bottom: 200px;
+    }
+    .logo3{
+        position: relative;
+        padding-top: 10px;
+    }
+    .ww{
+        text-align: center;
+    
+    }
+    .imgg1{
+        display: none;
+    }
+    .imgg2{
+        display: none;
+    }
+    .q{
+        display: none;
+    }
+    .rect2{
+        display: none;
+    }
+    .rect3{
+        display: none;
+    }
+    .container2 {
+     flex-direction: column;
+     padding-right: 20px;
+    }
+
+    .loca{
+        position: relative;
+        bottom: 30px;
+    }
+
+    .foot{
+      font-size: 11px;
+    }
+    .foot{
+        font-size: 13px;
+        gap: 10px;
+        flex-direction: column;
+    }
+   
+}
+@media (max-width: 810px)
+{
+    .contact-button1 {
+        flex-direction: column;
+        
+    }
+}
+
+@media(max-width: 1000px){
+    .container1{
+      padding-left: 0% !important;
+    }
+    .ww{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .mission-section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .im2{
+        display: none;
+    }
+    .im1{
+        display: none;
+    }
+    .container2{
+        display: flex;
+        gap: 60px !important;
+    }
+}
+
+@media (max-width :760px){
+    .footer-class{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+
+    }
+
+}
